@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "the-feed",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "the-feed"
+	}
+}

@@ -1,0 +1,65 @@
+body{
+
+    background-color: rgb(220, 220, 220);
+    color: rgb(100, 83, 48);
+    font-size: 30px;
+    border: 40px solid #85735c;
+    margin: 20px;
+    padding: 30px;
+}
+
+a{
+    color: rgb(100, 83, 48);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+a:hover { font-size: 80px; color: rgb(122, 95, 66); text-decoration: none;
+}
+
+
+.p2 {
+
+	margin: auto;
+	border: 1px solid rgba(255, 255, 255, 0);
+    padding-top: 50px;
+	padding: 100 px;
+    line-height: 1.5em;     
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+  
+img {
+    width: 30%;
+    height: auto;
+  }
+  @keyframes flashColors {
+    0% { color: rgb(82, 53, 33); }
+    25% { color: rgb(98, 72, 45); }
+    50% { color: rgb(106, 80, 61); }
+    75% { color: rgb(105, 129, 86); }
+    100% { color: rgb(35, 102, 29); }
+  }
+  
+  .h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #f0f0f0;
+  }
+  
+  .flashing-title {
+    font-size: 3em;
+    animation: flashColors 5s infinite; /* Adjust the duration as needed */
+  }
+  
